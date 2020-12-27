@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Langar', cursive;;
+}
+
+button { 
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header {
+    display: flex;
+    width: 70%;
+    height: 10vh;
+    margin: 130px 0px 0px 30px;
+    align-items: center;
+}  */
+
+/* .logo-container, .nav-links,*/ 
+ /* .cart { 
+	display: flex;
+}   */
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #043b5a; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    display: flex;
+}
+
+.text-nav {
+    padding: 100px 70px 0px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    display: block;
+}
+
+.whatsapp {
+    display: flex;
+}
+
+
+header {
+    width:80%;
+    height:80vh;
+    margin:-300px 0px 0px 0px;
+    background-image:url('./img/Title.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+
+.logo-container {
+    /* background: lightblue; */
+    display: flex;
+    flex: 1;
+}
+
+.presentaion {
+    display: flex;
+    width: 90%;
+    margin: -200px 70px 0px 0px;
+    min-height: 50vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+}
+
+.cover {
+    flex: 1;
+}
+
+.intro-text img, .intro-text-2 img, 
+.intro-text-3 img, .intro-text-4 img {
+    float: right;
+}
+
+.intro-text h1 {
+    position: relative;
+    margin: 4px 125px 0px 0px;
+    font-size: 70px;
+}
+
+.intro-text p, .intro-text-2 p, 
+.intro-text-5 p {
+    position: relative;
+    margin: 4px 125px 0px 0px;
+    font-size: 40px;
+    width: 60%;
+}
+
+.intro-text-2 h1, .intro-text-3 h1, 
+.intro-text-4 h1, .intro-text-5 h1 {
+    position: relative;
+    margin: 100px 125px 0px 0px;
+    font-size: 70px;
+}
+
+.in-img {
+    margin: 40px 120px 250px 0px;
+}
+
+.profile {
+    float: left;
+    width: 1120px;
+    border: hidden;
+    padding: 5px;
+    margin: 10px 100px 10px 10px;
+}
+
+.profile img {
+    float: right;
+    width: 25%;
+}
+
+.profile p {
+    font-size: 40px;
+    margin-top: -18px;
+    margin-left: 310px;
+    margin-right: 295px;
+}
+
+.check-box {
+    margin-top: 50px;
+}
+
+.check-box img {
+    float: right;
+    width: 70px;
+    margin-right: -100px;
+}
+
+.check-box p {
+    margin-right: 80px;
+}
+
+.customer {
+    margin: 150px -300px 0px 0px
+} 
+
+.cta {
+    padding: 50px 0px 0px 0px;
+}
+
+.cta-select {
+    border: 2px solid black;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-add {
+    background: yellow;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    margin: 30px 0px 0px 30px;
+}
+
+
+
+.cover img {
+    height: 60vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .presentaion {
+        flex-direction: column;
+    }
+    .introduction {
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .intro-text h1 {
+        font-size: 30px;
+    }
+    .intro-text p {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+nav{
+    /* background: rgb(4, 173, 32); */
+    flex: 1;
+}
+.nav-links {
+    justify-content: space-around;
+}
+.nav-link {
+    /* color: #5f5f79; */
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.cart {
+    /* background: rgb(208, 211, 21);  */
+    flex: 1;
+    justify-content: flex-end;
+} 
